@@ -176,7 +176,7 @@ namespace Getting_Company_Info
                 STEP = "Step_2";
                 timer1.Enabled = true;
                 company_a++;
-                //System.Threading.Thread.Sleep(3000);
+                //System.Threading.Thread.Sleep(3000); changes
 
                 compcomplbl.Visible = true;
                 compcomplbl.Text = "Working : " + company_a + "/" + Companylist.Count;
